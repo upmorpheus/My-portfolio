@@ -1,9 +1,13 @@
 import React from "react";
-import AboutMe from "../components/AboutMe";
+import Experience from "./Experience";
+import AboutMe from "./AboutMe";
+import Services from "./Services";
 
 const Home = () => (
     <div className="home">
         <AboutMe />
+        <Experience />
+        <Services />
     </div>
 );
 
