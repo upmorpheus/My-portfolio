@@ -11,11 +11,12 @@ const Header = () => {
 							</div>
 
 							<div className="col-md-12">
-								<h1>I'm Poppy Jackson</h1>
+								<h1>I'm Yuu Kimura</h1>
 							</div>
 
 							<div className="col-md-12">
-								<p>Web Designer, Web Developer, Front End Developer, Apps Developer, Graphic Designer</p>
+								<p>Web Designer, Senior Web Developer, Senior Front End Developer,
+									Senior Back End Developer, Graphic Designer</p>
 								<h2></h2>
 							</div>
 						</div>
@@ -36,25 +37,20 @@ const Header = () => {
 								<li><a href="#experience">Experience</a></li>
 								<li><a href="#services">Services</a></li>
 								<li><a href="#portfolio">Portfolio</a></li>
-								<li className="menu-has-children"><a href="#">Drop Down</a>
-									<ul>
-										<li><a href="#">Drop Down 1</a></li>
-										<li><a href="#">Drop Down 2</a></li>
-										<li className="menu-has-children"><a href="#">Drop Down 3</a>
-											<ul>
-												<li><a href="#">Drop Down 1</a></li>
-												<li><a href="#">Drop Down 2</a></li>
-												<li><a href="#">Drop Down 3</a></li>
-											</ul>
-										</li>
-									</ul>
-								</li>
 								<li><a href="#contact">Contact me</a></li>
 							</ul>
 						</nav>
 
 						<nav className="nav social-nav pull-right d-none d-lg-inline">
-							<a href="#"><i className="fa fa-twitter"></i></a> <a href="#"><i className="fa fa-facebook"></i></a> <a href="#"><i className="fa fa-linkedin"></i></a>
+							<a href="#">
+								<i className="fa fa-twitter"/>
+							</a>
+							<a href="#">
+								<i className="fa fa-facebook"/>
+							</a>
+							<a href="#">
+								<i className="fa fa-linkedin"/>
+							</a>
 						</nav>
 					</div>
 				</div>
