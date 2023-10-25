@@ -13,16 +13,16 @@ const AboutMe = () => {
                         <header className="section-header">
                             <h2>About Me</h2>
                         </header>
-                        <h3><strong>Name:</strong> Poppy Jackson</h3>
-                        <h4><strong>Profession:</strong> Web Designer & Developer</h4>
+                        <h3><strong>Name:</strong>Yuu Kimura</h3>
+                        <h4><strong>Profession:</strong> Senior web developer and Designer</h4>
                         <p>
-                            Aliquam volutpat libero vitae tellus tristique lacinia. Donec convallis eros quis purus fringilla feugiat. Morbi blandit sapien vestibulum. Donec maximus ligula a ultrices placerat.
-                        </p>
-                        <p>
-                            Mauris ac odio vel tortor facilisis scelerisque. Donec mattis interdum erat, at scelerisque augue mattis at. Integer nec scelerisque nisl. Duis urna justo, placerat bibendum mattis nec, venenatis ac nisl.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pellentesque neque auctor nisl ornare, id gravida mi elementum. Pellentesque convallis auctor efficitur. Pellentesque turpis turpis, placerat eu tempor id, fermentum eu magna.
+                            My 7 years of experience in Frontend developing, along with my 3 years of
+                            experience working as a Senior Golang Engineer at Gretel has acquainted me
+                            well with the nuances of the role. My Frontend and Backend skills are finely
+                            honed and all the web pages created by me are mobile-friendly and responsive.
+                            My deep understanding of the latest web development trends and
+                            technologies, coupled with my ability to quickly adapt to new technologies
+                            makes me a valuable asset to any company I work for.
                         </p>
                         <a href="#">Hire Me</a>
                     </div>
@@ -33,21 +33,28 @@ const AboutMe = () => {
                         <div className="skills">
                             <h3>Front End Skills</h3>
                             <div className="skill-name">
-                                <p>HTML</p><p>85%</p>
+                                <p>React</p><p>85%</p>
                             </div>
                             <div className="progress">
                                 <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
+
+                            <div className="skill-name">
+                                <p>Svelte</p><p>80%</p>
+                            </div>
+                            <div className="progress">
+                                <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                             
                             <div className="skill-name">
-                                <p>CSS</p><p>95%</p>
+                                <p>JavaScript</p><p>95%</p>
                             </div>
                             <div className="progress">
                                 <div className="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             
                             <div className="skill-name">
-                                <p>jQuery</p><p>80%</p>
+                                <p>TypeScript</p><p>80%</p>
                             </div>
                             <div className="progress">
                                 <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
@@ -58,21 +65,28 @@ const AboutMe = () => {
                         <div className="skills">
                             <h3>Back End Skills</h3>
                             <div className="skill-name">
-                                <p>PHP</p><p>90%</p>
+                                <p>Golang</p><p>90%</p>
                             </div>
                             <div className="progress">
                                 <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             
                             <div className="skill-name">
-                                <p>Laravel</p><p>85%</p>
+                                <p>Rust</p><p>85%</p>
                             </div>
                             <div className="progress">
                                 <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             
                             <div className="skill-name">
-                                <p>MySQL</p><p>95%</p>
+                                <p>Laravel</p><p>95%</p>
+                            </div>
+                            <div className="progress">
+                                <div className="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                            <div className="skill-name">
+                                <p>Node</p><p>95%</p>
                             </div>
                             <div className="progress">
                                 <div className="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
