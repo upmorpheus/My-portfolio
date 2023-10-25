@@ -1,9 +1,9 @@
 import React from "react";
-import Landing from "../components/landing";
+import AboutMe from "../components/AboutMe";
 
 const Home = () => (
     <div className="home">
-        <Landing />
+        <AboutMe />
     </div>
 );
 

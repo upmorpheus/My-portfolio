@@ -8,7 +8,6 @@ import {
 import Home from "./views";
 import EBooks from "./views/Ebooks";
 import Management from "./views/Management";
-import Users from "./views/Users";
 import Register from "./views/auth/Register";
 import Login from "./views/auth/Login";
 import Header from "./components/header";
@@ -21,7 +20,6 @@ const publicRouter = createBrowserRouter(createRoutesFromElements(
     <Route path='register' element={<Register />} />,
     <Route path='e-books' element={<EBooks />} />,
     <Route path='management' element={<Management />} />,
-    <Route path='users' element={<Users />} />
   ]
 ));
 
