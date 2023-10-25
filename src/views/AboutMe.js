@@ -2,15 +2,15 @@ import React from "react";
 
 const AboutMe = () => {
     return (
-        <div class="about" id="about">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 col-lg-4">
-                        <img class="img-fluid" src="img/about-us.jpg" />
+        <div className="about" id="about">
+            <div className="container">
+                <div className="row align-items-center">
+                    <div className="col-md-6 col-lg-4">
+                        <img className="img-fluid" src="img/about-us.jpg" />
                     </div>
 
-                    <div class="col-md-6 col-lg-8">
-                        <header class="section-header">
+                    <div className="col-md-6 col-lg-8">
+                        <header className="section-header">
                             <h2>About Me</h2>
                         </header>
                         <h3><strong>Name:</strong> Poppy Jackson</h3>
@@ -28,54 +28,54 @@ const AboutMe = () => {
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="skills">
+                <div className="row">
+                    <div className="col-md-6">
+                        <div className="skills">
                             <h3>Front End Skills</h3>
-                            <div class="skill-name">
+                            <div className="skill-name">
                                 <p>HTML</p><p>85%</p>
                             </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="progress">
+                                <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             
-                            <div class="skill-name">
+                            <div className="skill-name">
                                 <p>CSS</p><p>95%</p>
                             </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="progress">
+                                <div className="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             
-                            <div class="skill-name">
+                            <div className="skill-name">
                                 <p>jQuery</p><p>80%</p>
                             </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="progress">
+                                <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="skills">
+                    <div className="col-md-6">
+                        <div className="skills">
                             <h3>Back End Skills</h3>
-                            <div class="skill-name">
+                            <div className="skill-name">
                                 <p>PHP</p><p>90%</p>
                             </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="progress">
+                                <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             
-                            <div class="skill-name">
+                            <div className="skill-name">
                                 <p>Laravel</p><p>85%</p>
                             </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="progress">
+                                <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             
-                            <div class="skill-name">
+                            <div className="skill-name">
                                 <p>MySQL</p><p>95%</p>
                             </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="progress">
+                                <div className="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     </div>

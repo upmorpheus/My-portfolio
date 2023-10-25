@@ -3,12 +3,12 @@ import React from "react";
 const Testimonials = () => {
     
     return (
-        <div class="testimonials" id="testimonials">
-            <div class="container">
-                <i class="fa fa-4x fa-quote-left"></i>
-                <div class="owl-carousel testimonials-carousel">
-                    <div class="testimonial-item">
-                        <img src="img/testimonial-1.jpg" class="testimonial-img" alt="" />
+        <div className="testimonials" id="testimonials">
+            <div className="container">
+                <i className="fa fa-4x fa-quote-left"></i>
+                <div className="owl-carousel testimonials-carousel">
+                    <div className="testimonial-item">
+                        <img src="img/testimonial-1.jpg" className="testimonial-img" alt="" />
                         <h3>Abigail Shaw</h3>
                         <h4>Greenhouse worker</h4>
                         <p>
@@ -16,8 +16,8 @@ const Testimonials = () => {
                         </p>
                     </div>
 
-                    <div class="testimonial-item">
-                        <img src="img/testimonial-2.jpg" class="testimonial-img" alt="" />
+                    <div className="testimonial-item">
+                        <img src="img/testimonial-2.jpg" className="testimonial-img" alt="" />
                         <h3>Jake Gregory</h3>
                         <h4>News correspondent</h4>
                         <p>
@@ -25,8 +25,8 @@ const Testimonials = () => {
                         </p>
                     </div>
 
-                    <div class="testimonial-item">
-                        <img src="img/testimonial-3.jpg" class="testimonial-img" alt="" />
+                    <div className="testimonial-item">
+                        <img src="img/testimonial-3.jpg" className="testimonial-img" alt="" />
                         <h3>Maddison Hughes</h3>
                         <h4>Social worker</h4>
                         <p>
