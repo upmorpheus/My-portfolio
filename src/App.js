@@ -13,7 +13,6 @@ import Footer from "./components/footer";
 const publicRouter = createBrowserRouter(createRoutesFromElements(
   [
     <Route path='/' element={<Home />} />,
-    <Route path='login' element={<Login />}/>,
   ]
 ));
 
